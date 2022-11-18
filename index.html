@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <img
+        class="trybewarts-header-logo"
+        src="/images/trybewarts-header-logo.svg"
+      />
+
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      <form class="trybewarts-login">
+        <label>
+          <input
+            class="input-email"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+        </label>
+        <label>
+          <input
+            class="input-password"
+            type="text"
+            name="password"
+            placeholder="Senha"
+          />
+        </label>
+        <button class="btn-form">Entrar</button>
+      </form>
+    </header>
+    <main>
+      <form id="evaluation-form">
+        <div class="form-main-name">
+            <h2>Trybewarts Form</h2>
+        </div>
+        <div class="eva-forms">
+          <div class="eva-form-names">
+            <label for="name">
+              <input
+                id="input-name"
+                class="input-name"
+                type="text"
+                name="name"
+                placeholder="Nome"
+              />
+            </label>
+            <label for="email">
+              <input
+                id="input-email"
+                type="email"
+                name="email"
+                placeholder="Email"
+              />
+            </label>
+          </div>
+          <div class="eva-form-email-casa">
+            <label for="sobrenome">
+              <input
+                id="input-lastname"
+                class="input-sobrenome"
+                type="text"
+                name="sobrenome"
+                placeholder="Sobrenome"
+              />
+            </label>
+
+            <select id="house">
+              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+              <option id="corvinode-house" value="Corvinode">Corvinode</option>
+              <option id="pytherina-house" value="Pytherina">Pytherina</option>
+            </select>
+          </div>
+        </div>
+        <div class="container-label-family">
+          <label id="label-family">Qual sua família?</label>
+          <div class="label-family-items">
+            <div>
+
+              <input type="radio" name="family" value="Frontend" />
+              Frontend
+            </div>
+            <div>
+
+              <input type="radio" name="family" value="Backend" />
+              Backend
+            </div>
+            <div>
+
+              <input type="radio" name="family" value="FullStack" />
+              FullStack
+            </div>
+          </div>
+        </div>
+        <fieldset class="container-content">
+        <legend id="label-content"
+          >Qual conteúdo você está com mais vontade de aprender?
+        </legend>
+        <div class="content-list-first">
+        <div>
+          HoFs
+          <input type="checkbox" name="" class="subject" value="HoFs" />
+        </div>
+        <div>
+          Jest
+          <input type="checkbox" name="" class="subject" value="Jest" />
+        </div>
+        <div>
+          Promises
+          <input type="checkbox" name="" class="subject" value="Promises" />
+        </div>
+        <div>
+          React
+          <input type="checkbox" name="" class="subject" value="React" />
+        </div>
+        <div>
+          SQL
+          <input type="checkbox" name="" class="subject" value="SQL" />
+        </div>
+        <div>
+          Python
+          <input type="checkbox" name="" class="subject" value="Python" />
+        </div>
+    </div>
+    <div class="content-list-second">
+        <div>
+          Rap
+          <input type="checkbox" name="" class="subject" value="Rap" />
+        </div>
+        <div>
+          Hacking
+          <input type="checkbox" name="" class="subject" value="Hacking" />
+        </div>
+        <div>
+          Soft Skills
+          <input type="checkbox" name="" class="subject" value="SoftSkills" />
+        </div>
+        <div>
+          Cobol
+          <input type="checkbox" name="" class="subject" value="Cobol" />
+        </div>
+        <div>
+          Java
+          <input type="checkbox" name="" class="subject" value="Java" />
+        </div>
+        <div>
+          Angular
+          <input type="checkbox" name="" class="subject" value="Angular" />
+        </div>
+    </div>
+    <div class="content-list-third">
+        <div>
+          Meth
+          <input type="checkbox" name="" class="subject" value="Meth" />
+        </div>
+        <div>
+          Hacking
+          <input type="checkbox" name="" class="subject" value="Hacking" />
+        </div>
+        <div>
+          Soft Skills
+          <input type="checkbox" name="" class="subject" value="SoftSkills" />
+        </div>
+        <div>
+          Quantum
+          <input type="checkbox" name="" class="subject" value="Quantum" />
+        </div>
+        <div>
+          Math
+          <input type="checkbox" name="" class="subject" value="Java" />
+        </div>
+        <div>
+          Games
+          <input type="checkbox" name="" class="subject" value="Games" />
+        </div>
+    </div>
+    <div class="content-list-fourth">
+        <div>
+          PHP
+          <input type="checkbox" name="" class="subject" value="PHP" />
+        </div>
+        <div>
+          Blockchain
+          <input type="checkbox" name="" class="subject" value="Blockchain" />
+        </div>
+        <div>
+          Cripto
+          <input type="checkbox" name="" class="subject" value="SoftSkills" />
+        </div>
+        <div>
+          Variety
+          <input type="checkbox" name="" class="subject" value="Variety" />
+        </div>
+        <div>
+          PopOs
+          <input type="checkbox" name="" class="subject" value="PopOs" />
+        </div>
+        <div>
+          Linux
+          <input type="checkbox" name="" class="subject" value="Linux" />
+        </div>
+    </div>
+    </fieldset>
+        <fieldset class="container-label-rate">
+          <legend id="label-rate">Como você avalia a Trybewarts?</legend>
+          1<input type="radio" name="rate" value="1" /> 2<input
+            type="radio"
+            name="rate"
+            value="2"
+          />
+          3<input type="radio" name="rate" value="3" /> 4<input
+            type="radio"
+            name="rate"
+            value="4"
+          />
+          5<input type="radio" name="rate" value="5" /> 6<input
+            type="radio"
+            name="rate"
+            value="6"
+          />
+          7<input type="radio" name="rate" value="7" /> 8<input
+            type="radio"
+            name="rate"
+            value="8"
+          />
+          9<input type="radio" name="rate" value="9" /> 10<input
+            type="radio"
+            name="rate"
+            value="10"
+          />
+        </fieldset>
+        <label class="textarea">Deixe seu comentário:</label>
+        <textarea rows="15" maxlength="500"></textarea>
+        <div class="container-agreement">
+          <input id="agreement" type="checkbox" />
+          <label id="label-infos"
+            >Você concorda com o uso das informações acima?
+          </label>
+        </div>
+        <button id="submit-btn" type="submit" disabled>Enviar</button>
+      </form>
+      <img id="trybewarts-forms-logo" src="/images/trybewarts-colored.svg" />
+    </main>
+    <footer>Direitos reservados à Trybewarts©</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
